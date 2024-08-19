@@ -17,6 +17,8 @@
     <p>19th Aug 2024</p>
     <div id="map"></div>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script>
         var map = L.map('map').setView([41.8781, -87.6298], 13);
 
@@ -28,7 +30,6 @@
             .bindPopup('Chicago, IL')
             .openPopup();
     </script>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <h3>Interactive Plotly Graph</h3>
     <div id="plotly-div"></div>
     <script>
